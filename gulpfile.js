@@ -49,9 +49,6 @@ var challenges = {
     '30-Off-Line-Minimum.js'
   ],
   'medium' : [
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     '01-Prime-Time.js',
     '02-Run-Length.js',
     '03-Prime-Mover.js',
@@ -84,12 +81,6 @@ var challenges = {
     '30-Look-Say-Sequence.js',
     '31-Distinct-List.js',
     '32-Number-Encoding.js'
->>>>>>> 4a2afb1... added medium exercises to gulpfile
-
-=======
-    '01-Prime-Time.js',
-    '02-Run-Length.js'
->>>>>>> a1d71f4... medium 02
   ],
   'hard' : [
 
