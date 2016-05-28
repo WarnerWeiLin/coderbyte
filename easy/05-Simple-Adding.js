@@ -6,7 +6,11 @@
 function SimpleAdding(num) {
 
   // code goes here
-  return num;
+  var result=0;
+  for (;num>0;num--){
+    result=result+num
+  }
+  return result;
 
 }
 

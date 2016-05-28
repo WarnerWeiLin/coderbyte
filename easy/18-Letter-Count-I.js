@@ -6,12 +6,27 @@
 // Words will be separated by spaces.
 
 function LetterCountI(str) {
+  var mostlettersword="-1";
+  var words=str.split(" ");//["Hello","apple","pie"]
+  var LetterCount=1;
+  var maxLetterCount=0
+  for (var i=0;i<words.length;i++){
+    for (var j=0;j<words[i].length;j++){
+      if (words[i][j]===words[i][j+1]){
+        LetterCount=LetterCount+1;
+        if(LetterCount>maxLetterCount){
+          maxLetterCount=LetterCount;
+          mostlettersword=words[i];
+        }
 
-  // code goes here
-  return str;
+      }
+    }
+    LetterCount=1;
+  }
 
+
+  return mostlettersword
 }
-
 console.log( LetterCountI("Hello apple pie") )
 console.log( LetterCountI("No words") )
 

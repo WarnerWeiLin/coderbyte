@@ -7,12 +7,19 @@
 function ABCheck(str) {
 
   // code goes here
-  return str;
+  var result = false;
+  string=str.split("")
+  for(var i=0;i<string.length;i++){
+    if(string[i]==="a"&& string[i+4]==="b"){
+      return true;
+    }
+  }
+  return result;
 
 }
 
 console.log( ABCheck("after badly") )
-console.log( ABCheck("Laura sobs") )
+console.log( ABCheck("a...b") )
 
 
 // Correct Sample Outputs

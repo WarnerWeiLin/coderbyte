@@ -5,8 +5,9 @@
 function TimeConvert(num) {
 
   // code goes here
-  return num;
-
+  var hours=Math.floor(num/60)
+  var minutes=num-hours*60
+  return ""+hours+":"+minutes
 }
 
 console.log( TimeConvert(126) )

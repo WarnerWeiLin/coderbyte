@@ -10,6 +10,7 @@
 function ArithGeo(arr) {
 
   // code goes here
+
   return arr;
 
 }

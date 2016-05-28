@@ -8,7 +8,9 @@
 function Palindrome(str) {
 
   // code goes here
-  return str;
+  str1=str.replace(/[\s]/gi,"").split("").reverse().join("")
+  str=str.replace(/[\s]/gi,"")
+  return str===str1;
 
 }
 

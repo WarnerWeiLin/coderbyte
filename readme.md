@@ -41,24 +41,24 @@ Check off the challenges as you complete them! Example:
 
 ## Easy
 
-1. [ ] **First Reverse** - For this challenge you will be reversing a string.
-1. [ ] **First Factorial** - For this challenge you will be determining the factorial for a given number.
-1. [ ] **Longest Word** - For this challenge you will be determining the largest word in a string.
-1. [ ] **Letter Changes** - For this challenge you will be manipulating characters in a string based off their positions in the alphabet.
-1. [ ] **Simple Adding** - For this challenge you will be adding up all the numbers from 1 to a certain argument.
-1. [ ] **Letter Capitalize** - For this challenge you will be capitalizing certain characters in a string.
-1. [ ] **Simple Symbols** - For this challenge you will be determining whether or not certain characters are in correct positions.
-1. [ ] **Check Nums** - For this challenge you will be comparing two numbers and determining which one is greater.
-1. [ ] **Time Convert** - For this challenge you will be determining the difference in hours and minutes between two given times.
-1. [ ] **Alphabet Soup** - For this challenge you will be sorting characters in a string.
-1. [ ] **AB Check** - For this challenge you will determine if two characters are separated a specific way in the string.
-1. [ ] **Vowel Count** - For this challenge you will be counting all the vowels in a string.
-1. [ ] **Word Count** - For this challenge you will be determining how many words a sentence contains.
-1. [ ] **Ex Oh** - For this challenge you will traverse a string and determine if there is an equal amount of certain characters.
-1. [ ] **Palindrome** - For this challenge you will determine if a string is written the same way forward and backwards.
+1. [x] **First Reverse** - For this challenge you will be reversing a string.
+1. [x] **First Factorial** - For this challenge you will be determining the factorial for a given number.
+1. [x] **Longest Word** - For this challenge you will be determining the largest word in a string.
+1. [x] **Letter Changes** - For this challenge you will be manipulating characters in a string based off their positions in the alphabet.
+1. [x] **Simple Adding** - For this challenge you will be adding up all the numbers from 1 to a certain argument.
+1. [x] **Letter Capitalize** - For this challenge you will be capitalizing certain characters in a string.
+1. [x] **Simple Symbols** - For this challenge you will be determining whether or not certain characters are in correct positions.
+1. [x] **Check Nums** - For this challenge you will be comparing two numbers and determining which one is greater.
+1. [x] **Time Convert** - For this challenge you will be determining the difference in hours and minutes between two given times.
+1. [x] **Alphabet Soup** - For this challenge you will be sorting characters in a string.
+1. [x] **AB Check** - For this challenge you will determine if two characters are separated a specific way in the string.
+1. [x] **Vowel Count** - For this challenge you will be counting all the vowels in a string.
+1. [x] **Word Count** - For this challenge you will be determining how many words a sentence contains.
+1. [x] **Ex Oh** - For this challenge you will traverse a string and determine if there is an equal amount of certain characters.
+1. [x] **Palindrome** - For this challenge you will determine if a string is written the same way forward and backwards.
 1. [ ] **Arith Geo** - For this challenge you will determine if numbers within an array follow an arithmetic or geometric sequence.
 1. [ ] **Array Addition I** - For this challenge you will determine if numbers in an array can add up to a certain number in the array.
-1. [ ] **Letter Count I** - For this challenge you will determine which word has the greatest number of repeated letters.
+1. [x] **Letter Count I** - For this challenge you will determine which word has the greatest number of repeated letters.
 1. [ ] **Second GreatLow** - For this challenge you will determine the second lowest and greatest numbers in an array.
 1. [ ] **Division Stringified** - For this challenge you will divide two numbers and return them in a certain format.
 1. [ ] **Counting Minutes** I - For this challenge you will return the total number of minutes between two times.

@@ -7,8 +7,16 @@
 function LetterChanges(str) {
 
   // code goes here
+  var stringtest1="abcdefghijklmnopqrstuvwxyz"
+  var stringtest2="bcdEfghIjklmnOpqrstUvwxyzA"
+  var index=-1;
+  for(var i=0;i<str.length;i++){
+    if (stringtest1.indexOf(str[i])!==-1){
+      index=stringtest1.indexOf(str[i])
+      str=str.replace(str[i],stringtest2[index])
+    }
+  }
   return str;
-
 }
 
 console.log( LetterChanges( "hello*3"  ) );

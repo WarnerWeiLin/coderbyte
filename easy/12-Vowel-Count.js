@@ -7,7 +7,8 @@
 function VowelCount(str) {
 
   // code goes here
-  return str;
+  str=str.replace(/[^aeiou]/gi,"")
+  return str.length;
 
 }
 
