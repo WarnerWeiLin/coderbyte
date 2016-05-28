@@ -59,7 +59,7 @@ Check off the challenges as you complete them! Example:
 1. [ ] **Arith Geo** - For this challenge you will determine if numbers within an array follow an arithmetic or geometric sequence.
 1. [ ] **Array Addition I** - For this challenge you will determine if numbers in an array can add up to a certain number in the array.
 1. [x] **Letter Count I** - For this challenge you will determine which word has the greatest number of repeated letters.
-1. [ ] **Second GreatLow** - For this challenge you will determine the second lowest and greatest numbers in an array.
+1. [x] **Second GreatLow** - For this challenge you will determine the second lowest and greatest numbers in an array.
 1. [ ] **Division Stringified** - For this challenge you will divide two numbers and return them in a certain format.
 1. [ ] **Counting Minutes** I - For this challenge you will return the total number of minutes between two times.
 1. [ ] **Mean Mode** - For this challenge you will determine if the mode equals the mean in an array.
