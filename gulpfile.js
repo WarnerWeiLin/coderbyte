@@ -49,7 +49,7 @@ var challenges = {
     '30-Off-Line-Minimum.js'
   ],
   'medium' : [
-
+    '01-Prime-Time.js'
   ],
   'hard' : [
 
