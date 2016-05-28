@@ -10,7 +10,7 @@ function SecondGreatLow(arr) {
   // code goes here
   arr=arr.sort(function(a,b){return a-b})
   var results=""
-  for(var i=0;i<arr.length;i++){
+  for(var i=0;i<arr.length/2;i++){
     if (arr[i]===arr[i+1]){
       arr.shift()
     }
