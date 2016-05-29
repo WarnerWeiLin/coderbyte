@@ -4,9 +4,18 @@
 // For example: if str is "Hello World" the output should be hELLO wORLD. Let numbers and symbols stay the way they are.
 
 function SwapCase(str) {
-
+  str=str.split("")
+  for(var i = 0 ;i<str.length ;i++){
+    if(str[i]===str[i].toUpperCase()){
+      str[i]=str[i].toLowerCase()
+    } else{
+      if(str[i]===str[i].toLowerCase()){
+        str[i]=str[i].toUpperCase()
+      }
+    }
+  }
   // code goes here
-  return str;
+  return str.join('');
 
 }
 console.log( SwapCase("Hello-LOL") )
