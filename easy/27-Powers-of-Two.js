@@ -5,9 +5,15 @@
 
 
 function PowersofTwo(num) {
+  var power=2;
+  var check=2;
+  for (;check<=num;check=check*power){
+    if(check===num){
+      return true
+    }
+  }
 
-  // code goes here
-  return num;
+  return false;
 
 }
 
