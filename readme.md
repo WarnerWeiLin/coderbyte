@@ -62,7 +62,7 @@ Check off the challenges as you complete them! Example:
 1. [x] **Second GreatLow** - For this challenge you will determine the second lowest and greatest numbers in an array.
 1. [x] **Division Stringified** - For this challenge you will divide two numbers and return them in a certain format.
 1. [ ] **Counting Minutes** I - For this challenge you will return the total number of minutes between two times.
-1. [ ] **Mean Mode** - For this challenge you will determine if the mode equals the mean in an array.
+1. [x] **Mean Mode** - For this challenge you will determine if the mode equals the mean in an array.
 1. [x] **Dash Insert** - For this challenge you will be manipulating a string using dashes (-).
 1. [ ] **Swap Case** - For this challenge you will be swapping the case of each character in the string.
 1. [ ] **Number Addition** - For this challenge you will traverse a string searching for all the numbers and then you will add them up.

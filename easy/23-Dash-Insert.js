@@ -7,7 +7,19 @@
 function DashInsert(str) {
 
   // code goes here
-  return str;
+  str=str.toString();
+  str=str.split("");
+  var array=[]
+  for(var i=0;i<str.length;i++){
+    if (parseInt(str[i])%2===1 && parseInt(str[i+1])%2===1){
+      array.push(str[i])
+      array.push("-")
+    } else {
+      array.push(str[i])
+    }
+  }
+
+  return array.join("");
 
 }
 
