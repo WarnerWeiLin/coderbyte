@@ -10,7 +10,19 @@
 function NumberAddition(str) {
 
   // code goes here
-  return str;
+  str=str.replace(/[^0-9]/gi," ").split(" ").sort()
+  var numbers=[]
+  for(var i =0;i<str.length;i++){
+    if(parseInt(str[i])){
+      numbers.push(parseInt(str[i]))
+    }
+  }
+
+  numbers = numbers.reduce(function(a,b){
+    return a+b;
+  })
+
+  return numbers;
 
 }
 

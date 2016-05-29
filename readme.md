@@ -65,7 +65,7 @@ Check off the challenges as you complete them! Example:
 1. [x] **Mean Mode** - For this challenge you will determine if the mode equals the mean in an array.
 1. [x] **Dash Insert** - For this challenge you will be manipulating a string using dashes (-).
 1. [x] **Swap Case** - For this challenge you will be swapping the case of each character in the string.
-1. [ ] **Number Addition** - For this challenge you will traverse a string searching for all the numbers and then you will add them up.
+1. [x] **Number Addition** - For this challenge you will traverse a string searching for all the numbers and then you will add them up.
 1. [ ] **Third Greatest** - For this challenge you will determine the third largest string within an array.
 1. [ ] **Powers of Two** - For this challenge you will be determining whether or not a number is a power of two.
 1. [ ] **Additive Persistence** - For this challenge you will be determining the additive persistence for a given number.
