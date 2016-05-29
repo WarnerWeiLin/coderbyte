@@ -5,9 +5,35 @@
 
 
 function MultiplicativePersistence(num) {
-
+  var count=0;
   // code goes here
-  return num;
+  var multiply=function(num){
+    count++
+    var product;
+    var numarray=[];
+    var numsplit=num.toString().split("");
+    for (var i =0;i<numsplit.length;i++){
+      numarray.push(parseInt(numsplit[i]));
+    }
+    product=numarray.reduce(function(a,b){
+      return a*b;
+    })
+    if (product>9){
+      multiply(product)
+    }
+  }
+
+
+
+
+  if(num<10){
+    return count;
+  } else{
+    multiply(num)
+  }
+
+
+  return count;
 
 }
 
