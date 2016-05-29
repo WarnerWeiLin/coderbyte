@@ -5,9 +5,33 @@
 
 
 function AdditivePersistence(num) {
+  var count=0;
+  var sum= function(num){
+    count++
+    var array=num.toString().split("")
+    var numarray=[]
+    var addsum=0;
+    for (var i =0;i<array.length;i++){
+      numarray.push(parseInt(array[i]));
+    }
+    addsum=numarray.reduce(function(a,b){
+      return a+b;
+    });
+    if(addsum>9){
+      sum(addsum)
+    }
+  }
 
-  // code goes here
-  return num;
+  if (num<10) {
+    return 0
+  } else {
+    sum(num)
+  }
+
+
+
+
+  return count;
 
 }
 
