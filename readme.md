@@ -80,7 +80,7 @@ Check off the challenges as you complete them! Example:
 1. [x] **Prime Mover** - For this challenge you will be returning a certain prime number.
 1. [x] **Palindrome Two** - For this challenge you will be determining if a string is a palindrome.
 1. [x] **Division** - For this challenge you will determine the Greatest Common Factor between two numbers.
-1. [ ] **String Scramble** - For this challenge you will determine if string 1 can be rearranged into string 2.
+1. [x] **String Scramble** - For this challenge you will determine if string 1 can be rearranged into string 2.
 1. [ ] **Arith Geo II** - For this challenge you will determine if numbers within an array follow an arithmetic or geometric sequence.
 1. [ ] **Array Addition** - For this challenge you will determine if numbers in an array can add up to a certain number in the array.
 1. [ ] **Binary Converter** - For this challenge you will be converting a number from binary to decimal.
