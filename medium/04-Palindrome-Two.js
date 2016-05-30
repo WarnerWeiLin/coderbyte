@@ -10,6 +10,11 @@
 function PalindromeTwo(str) {
 
   // code goes here
-  return str;
+  str=str.toLowerCase().replace(/[^a-z]/gi,"")
+  strreverse=str.split("").reverse().join("")
+  return str==strreverse;
 
 }
+
+console.log(PalindromeTwo("Noel - sees Leon"))
+console.log(PalindromeTwo("A war at Tarawa!"))
