@@ -8,8 +8,18 @@
 // Output:"abc"
 
 function CaesarCipher(str,num) {
+  str="Hello"
+  str1 = str.split(""); // array of the matches
+  // ["n", "o", "c", "h", "a", "n", "g", "e"]
 
-  // code goes here
-  return str + num;
-
+  var strtest="abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");     /[a-z]/gi
+  for(var i=0;i<str1.length;i++){
+    for(var j =0;j<strtest.length;j++){
+      if(str1[i]===strtest[j]){
+        str1[i]=strtest[j+num]
+        j=strtest.length;
+      }
+    }
+  }
+  return str1.join("");
 }

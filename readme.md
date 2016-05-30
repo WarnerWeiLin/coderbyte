@@ -85,7 +85,7 @@ Check off the challenges as you complete them! Example:
 1. [ ] **Array Addition** - For this challenge you will determine if numbers in an array can add up to a certain number in the array.
 1. [ ] **Binary Converter** - For this challenge you will be converting a number from binary to decimal.
 1. [ ] **Letter Count** - For this challenge you will determine which word has the greatest number of repeated letters.
-1. [ ] **Caesar Cipher** - For this challenge you will transform a string using the Caesar Cipher.
+1. [x] **Caesar Cipher** - For this challenge you will transform a string using the Caesar Cipher.
 1. [ ] **Simple Mode** - For this challenge you will determine the mode, the number that appears most frequently, in an array.
 1. [ ] **Consecutive** - For this challenge you will determine how to order an array of numbers consecutively.
 1. [ ] **Formatted Division** - For this challenge you will divide two numbers and print them in a certain format.

@@ -9,12 +9,15 @@
 
 function StringScramble(str1,str2) {
 
-  // code goes here
-  str1=str1.split("").sort().join("")
-  str2=str2.split("").sort().join("")
-
-  return str1 === str2;
-
+  for (i=0;i<str2.length;i++) {
+    console.log(i,str1[i],str2[i])
+       if (str1.indexOf(str2[i]) === -1) {
+       return false;
+       }
+       else {
+       str1 = str1.replace(str2[i], "");
+       }
+  }
 }
 
 console.log(StringScramble("cdore","coder"))
