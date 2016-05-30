@@ -70,7 +70,7 @@ Check off the challenges as you complete them! Example:
 1. [x] **Powers of Two** - For this challenge you will be determining whether or not a number is a power of two.
 1. [x] **Additive Persistence** - For this challenge you will be determining the additive persistence for a given number.
 1. [x] **Multiplicative Persistence** - For this challenge you will be determining the multiplicative persistence for a given number.
-1. [ ] **Off Line Minimum** - For this challenge you will be creating a subset of an array.
+1. [x] **Off Line Minimum** - For this challenge you will be creating a subset of an array.
 
 
 ## Medium
