@@ -77,7 +77,7 @@ Check off the challenges as you complete them! Example:
 
 1. [x] **Prime Time** - For this challenge you will be determining if an argument is a prime number.
 1. [x] **Run Length** - For this challenge you will determine the Run Length Encoding of a string.
-1. [ ] **Prime Mover** - For this challenge you will be returning a certain prime number.
+1. [x] **Prime Mover** - For this challenge you will be returning a certain prime number.
 1. [ ] **Palindrome Two** - For this challenge you will be determining if a string is a palindrome.
 1. [ ] **Division** - For this challenge you will determine the Greatest Common Factor between two numbers.
 1. [ ] **String Scramble** - For this challenge you will determine if string 1 can be rearranged into string 2.
