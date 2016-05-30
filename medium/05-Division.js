@@ -9,7 +9,23 @@
 
 function Division(num1,num2) {
 
-  // code goes here
-  return num1 + num2;
+  var gcf=0;
+  var temp=0;
+  if (num1>num2){
+    temp=num1;
+    num1=num2;
+    num2=temp;
+  }
+
+  for(i=0;i<num1+1;i++){
+    if(num1%i===0 && num2%i===0){
+      gcf=i;
+    }
+  }
+
+  return gcf;
 
 }
+
+console.log(Division(3,6))
+console.log(Division(36,54))
