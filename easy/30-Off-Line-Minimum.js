@@ -9,25 +9,11 @@
 function OffLineMinimum(strArr) {
 
   // code goes here
-  var integers=[]
-  var result=[]
-
-  for(var i=0;i<strArr.length;i++){
-    if (parseInt(strArr[i])){
-      integers.push(parseInt(strArr[i]))
-    }
-    if (strArr[i]==='E'){
-      integers=integers.sort()
-      result.push(integers[0])
-      integers.shift()
-    }
-  }
-
-  return result.join(",");
+  return strArr;
 
 }
 
-console.log( OffLineMinimum(["1","2","E","E","3"]) )
+console.log( OffLineMinimum([]"1","2","E","E","3"]) )
 console.log( OffLineMinimum(["4","E","1","E","2","E","3","E" ]) )
 
 // Correct Sample Outputs

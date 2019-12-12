@@ -8,15 +8,7 @@
 function LongestWord(sen) {
 
   // code goes here
-  var longest="";
-  var result=sen.replace(/[^qwertyuiopasdfghjklzxcvbnm]/gi," ");
-  result=result.split(" ");
-  for (var i=0;i<result.length;i++){
-    if (result[i].length>longest.length){
-       longest=result[i];
-    }
-  }
-  return longest;
+  return sen;
 
 }
 

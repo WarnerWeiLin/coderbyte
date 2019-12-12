@@ -5,7 +5,6 @@
 function FirstReverse(str) {
 
   // code goes here
-  str=str.split("").reverse().join("");
   return str;
 
 }

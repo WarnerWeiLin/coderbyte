@@ -9,18 +9,8 @@
 function SimpleSymbols(str) {
 
   // code goes here
-  var test=/[a-z]/gi
-  str=str.split("")
-  var result=true;
-  for(var i=0;i<str.length;i++){
-    if(test.test(str[i])){
-      if(str[i-1]==="+"&&str[i+1]==="+"){
-      } else {
-        return false
-      }
-    }
-  }
-  return result;
+  return str;
+
 }
 
 console.log( SimpleSymbols("+d+=3=+s+") );

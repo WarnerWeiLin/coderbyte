@@ -5,10 +5,7 @@
 function ExOh(str) {
 
   // code goes here
-  var xcount=str.replace(/[^x]/gi,"").length
-  var ocount=str.replace(/[^o]/gi,"").length
-
-  return xcount===ocount;
+  return str;
 
 }
 

@@ -6,15 +6,7 @@
 function LetterCapitalize(str) {
 
   // code goes here
-  str=str.split("")
-  str[0]=str[0].toUpperCase();
-  for (var i=0;i<str.length;i++){
-    if (str[i]===" "){
-      str[i+1]=str[i+1].toUpperCase()
-    }
-  }
-
-  return str.join("");
+  return str;
 
 }
 

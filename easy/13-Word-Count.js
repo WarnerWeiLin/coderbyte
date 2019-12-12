@@ -6,8 +6,7 @@
 function WordCount(str) {
 
   // code goes here
-  str=str.split(" ")
-  return str.length;
+  return str;
 
 }
 

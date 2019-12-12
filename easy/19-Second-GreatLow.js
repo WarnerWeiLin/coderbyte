@@ -8,25 +8,12 @@
 function SecondGreatLow(arr) {
 
   // code goes here
-  arr=arr.sort(function(a,b){return a-b})
-  var results=""
-  for(var i=0;i<arr.length/2;i++){
-    if (arr[i]===arr[i+1]){
-      arr.shift()
-    }
-    if (arr[arr.length-1]===arr[arr.length-2]){
-      arr.pop()
-    }
-  }
-  var secondgreatest=arr[arr.length-2];
-  var secondlowest=arr[1];
-  return results+secondlowest + " " + secondgreatest;
+  return arr;
 
 }
 
-console.log( SecondGreatLow([2, 42, 42, 180]) )
-console.log( SecondGreatLow([4, 90]))
-
+console.log( SecondGreatLow([1, 42, 42, 180]) )
+console.log( SecondGreatLow([4, 90]) )
 
 
 

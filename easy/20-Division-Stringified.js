@@ -7,26 +7,12 @@
 function DivisionStringified(num1,num2) {
 
   // code goes here
-  var result = Math.round(num1 / num2).toString();
-  var reverseres=result.split("").reverse()
-  var res=[];
-  var x=0;
-  for (var i = 0;i<reverseres.length;i++){
-    res.push(reverseres[i])
-    if(i===x+2){
-      res.push(",")
-      x=x+3;
-    }
+  return num1 + num2;
 
-  }
-  if (res.length===4){
-    res.pop()
-  }
-  return res.reverse().join("")
 }
 
-console.log( DivisionStringified(5,2) )
-console.log( DivisionStringified(6874,0.001) )
+console.log( DivisionStringified(8,8) )
+console.log( DivisionStringified(6874,88) )
 
 
 

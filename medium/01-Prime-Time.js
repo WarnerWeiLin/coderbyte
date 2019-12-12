@@ -1,21 +1,23 @@
-// Prime Time
-// Using the JavaScript language, have the function PrimeTime(num) take the num parameter being passed and return the string true if the parameter is a prime number, otherwise return the string false. The range will be between 1 and 2^16.
-// Sample Test Cases
-// Input:19
-// Output:true
 //
-// Input:110
-// Output:false
+//
 
-function PrimeTime(num) {
-  if(num>0&&num<65536){
-    for (var i=1;i<num;i++)
-      if(num%i===0 && i!==1){
-        return false
-      }
-    return true;
-  }
-}
-console.log(PrimeTime(19))
 
-console.log(PrimeTime(110))
+
+
+
+// Correct Sample Outputs
+
+// Input = "+d+=3=+s+"  Output = "true"
+// Input = "f++d+"      Output = "false"
+
+
+
+
+
+// Resources
+
+
+
+
+
+// Scratch pad

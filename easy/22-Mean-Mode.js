@@ -4,27 +4,10 @@
 
 
 function MeanMode(arr) {
-  var mean = arr.reduce(function(a,b){
-    return a+b;
-  })/arr.length;
-  var mode = 0;
-  var array = arr.sort()
-  var count = 1;
-  var maxcount=1
-  for(var i =0 ;i<array.length;i++){
-    if (array[i]===array[i+1]){
-      count=count+1
-    } else {
-      count=1;
-    }
-    if(count>maxcount){
-      mode=arr[i];
-    }
-  }
-  if (mean===mode){
-    return 1;
-  }
-  return 0
+
+  // code goes here
+  return arr;
+
 }
 console.log( MeanMode([1,2,3]) )
 console.log( MeanMode([4, 4, 4, 6, 2]) )
