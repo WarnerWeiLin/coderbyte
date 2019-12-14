@@ -4,7 +4,7 @@
   "description": "",
   "main": "04-letter-changes.js",
   "scripts": {
-    "start": "budo 04-letter-changes.js --live | garnish"
+    "start": "budo easy/04-Letter-Changes.js --live | garnish"
   },
   "author": "",
   "license": "ISC",
