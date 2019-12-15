@@ -10,6 +10,7 @@ var errorify = require('errorify')
 var openURL = require('opn')
 var browser = {
   'gc' : 'google chrome',
+  'br' : 'brave browser',
   'gcc': 'google chrome canary',
   'ff' : 'firefox',
   'sf' : 'safari'

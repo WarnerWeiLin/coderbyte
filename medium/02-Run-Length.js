@@ -11,22 +11,7 @@
 function RunLength(str) {
 
   // code goes here
-  var result=[];
-  var count=1;
-  str=str.split("");
-  strlength=str.length;
-  for(var i = 0 ;i<str.length ;i++){
-    if (str[i]===str[i+1]){
-      count++;
-    }
-    if (str[i]!==str[i+1]){
-      result.push(count)
-      result.push(str[i])
-      count=1;
-    }
-  }
-
-  return result.join("");
+  return str
 
 }
 
