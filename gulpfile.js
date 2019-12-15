@@ -115,7 +115,7 @@ gulp.task('default', function(cb) {
   })
   .on('exit', cb)
   .on('connect', function(ev) {
-    ready = once(openURL.bind(null, ev.uri, {app: browser.gc} ))
+    ready = once(openURL.bind(null, ev.uri, {app: browser.br} ))
   })
   .once('update', function() {
     //open the browser
